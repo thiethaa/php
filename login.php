@@ -1,4 +1,5 @@
 <?php 
+//show to nav bar
 if(isset($_SESSION['username'])!="") {
     header("Location: index.php");
 }
